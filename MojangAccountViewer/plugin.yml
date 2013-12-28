@@ -1,0 +1,22 @@
+name: MACViewer
+main: com.github.CubieX.MACViewer.MACViewer
+author: CubieX
+softdepend: [PermissionsEx, zPermissions, bPermissions, PermissionsBukkit]
+version: 0.0.1
+description: Shows the unique Mojang account UUID of a player
+
+commands:
+    av:
+      description: Using MACViewer
+      aliases: [team]
+      usage: /av | version | reload | uuid
+
+permissions:
+    macviewer.use:
+        description: Allows using the plugin
+        default: op
+    macviewer.admin:
+        description: Allows full control
+        default: op
+        children:
+          macviewer.use: true
