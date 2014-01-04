@@ -69,6 +69,8 @@ public class MACViewer extends JavaPlugin
    /**
     * Executes a POST to get the players Mojang UUID from Mojang account server via an async callback method<br>
     * and delivers the ResultSet through a Future object by firing a custom Event.
+    * To use this, make sure to listen for Event AsyncUUIDRetrievedEvent
+    * CAUTION: This may deliver no UUID if more than one player with the same name are registered at Mojang!
     * 
     * @param playerName The player name to get he UUID for
     * 

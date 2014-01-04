@@ -1,5 +1,7 @@
 Changelog for MACViewer by CubieX
 ---------------------------------
+V.0.0.2
+- improved JavaDoc comments
 
 V. 0.0.1
 - Initial version
