@@ -1,5 +1,6 @@
 /*
- * MACViewer - A CraftBukkit plugin that shows a players unique Mojang account UUID
+ * MACViewer - A CraftBukkit plugin that shows a players unique Mojang account UUID.
+ * Also works as API for other plugins to retrieve a players UUID.
  * Copyright (C) 2014  CubieX
  * Used parts of IdentifierAPI from EDawg878
  * 

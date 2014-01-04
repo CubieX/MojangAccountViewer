@@ -2,7 +2,7 @@ name: MACViewer
 main: com.github.CubieX.MACViewer.MACViewer
 author: CubieX
 softdepend: [PermissionsEx, zPermissions, bPermissions, PermissionsBukkit]
-version: 0.0.2
+version: 0.0.3
 description: Shows the unique Mojang account UUID of a player
 
 commands:
