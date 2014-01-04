@@ -10,12 +10,10 @@ import org.bukkit.event.Listener;
 public class EntityListener implements Listener
 {
    private MACViewer plugin = null;
-   private SchedulerHandler schedHandler = null;
 
-   public EntityListener(MACViewer plugin, SchedulerHandler schedHandler)
+   public EntityListener(MACViewer plugin)
    {        
-      this.plugin = plugin;
-      this.schedHandler = schedHandler;     
+      this.plugin = plugin;    
       plugin.getServer().getPluginManager().registerEvents(this, plugin);
    }
 

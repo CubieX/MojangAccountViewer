@@ -9,7 +9,7 @@ commands:
     av:
       description: Using MACViewer
       aliases: [team]
-      usage: /av | version | reload | uuid
+      usage: /av | version | reload | uuid <playerName>
 
 permissions:
     macviewer.use:
