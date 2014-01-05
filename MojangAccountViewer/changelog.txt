@@ -1,5 +1,8 @@
 Changelog for MACViewer by CubieX
 ---------------------------------
+V.0.0.4
+- fixed plugin.yml
+
 V.0.0.3
 - added comments
 
